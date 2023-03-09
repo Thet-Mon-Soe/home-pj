@@ -1,0 +1,61 @@
+body {
+    background-color: #f1fbff;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-padding {
+    padding: 150px 0px;
+}
+
+.home-text {
+    padding-top: 20%;
+}
+
+footer {
+    padding: 30px 0px;
+    background-color: #dcdedf;
+}
+
+.service {
+    line-height: 1cm;
+}
+
+.about h5 {
+    padding-left: 20px;
+}
+
+.about img {
+    border-radius: 5px;
+}
+
+.member {
+    padding-top: 100px;
+}
+
+.about p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .about p {
+        font-size: 15px;
+        line-height: normal;
+    }
+}
